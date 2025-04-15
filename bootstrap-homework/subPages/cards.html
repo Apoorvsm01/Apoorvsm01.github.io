@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Apoorv Bootstrap Homework - Cards</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="../css/homework.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Apoorv</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Cards</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="carousel.html">Carousel</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Grid Challenges
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../gridChallenge/gridChallenge1.html">Grid Challenge 1</a></li>
+                      <li><a class="dropdown-item" href="../gridChallenge/gridChallenge2.html">Grid Challenge 2</a></li>
+                      <li><a class="dropdown-item" href="../gridChallenge/gridChallenge3.html">Grid Challenge 3</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div class="container-lg">
+            <div class="row pt-3">
+                <div class="col-1">
+
+                </div>
+                
+                <div class="col-10">
+                    <h1>Stellar flares are increasing</h1>
+                    <h2>Starship Enterprise</h2>
+                    <p>
+                        Sensors indicate human life forms 30 meters below the planet's surface. Stellar flares are increasing in 
+                        magnitude and frequency. Set course for Rhomboid Dronegar 006, 
+                        warp seven. There's no evidence of an advanced communication network. 
+                        Total guidance system failure, with less than 24 hours' reserve power. 
+                        Shield effectiveness has been reduced 12 percent. We have covered the 
+                        area in a spherical pattern which a ship without warp drive could 
+                        cross in the given time.
+                        </p>
+                </div>
+            </div> <!--Row 1 close-->
+
+            <div class="row pt-2 pb-2">
+                <div class="col-lg-4 col-md-12 py-2">
+                <div class="card h-100 shadow">
+                    <img src="../images/img1.jpg" class="card-img-top" alt="fruits bowl">
+                    <div class="card-body">
+                        <h3 class="card-title">Card title</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="border-top border-2 pb-5"></div>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Food1">Modal</a>
+                    </div>
+                </div>
+
+                
+            </div> <!--Close col-->
+            <div class="col-lg-4 col-md-12 py-2">
+                <div class="card h-100 shadow">
+                    <img src="../images/img2.jpg" class="card-img-top" alt="assorted salads">
+                    <div class="card-body">
+                        <h3 class="card-title">Card title</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="Food1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id=Food1label">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                          <video controls width = "320" height = "240" autoplay loop>
+                            <source src="../images/video1.mp4" type="video/mp4">
+                        </div>
+                        <div class="modal-footer">
+                          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> I decided to keep the X and get rid of the close -->
+                          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!-- Close Modal -->
+            </div> <!--Close col--> 
+            <div class="col-lg-4 col-md-12 py-2">
+                <div class="card h-100 shadow">
+                    <img src="../images/img3.jpg" class="card-img-top" alt="breads and fruits">
+                    <div class="card-body">
+                        <h3 class="card-title">Card title</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div> <!--Close col-->
+            </div> <!-- Row w Cards close -->
+          </div> <!--Container-lg close-->
+
+          <!-- Footer -->
+           <footer class="footer-ap py-3 mx-3 border-top border-3">
+            copyright Apoorv Mahajan | 2025 | Assignment April 2025 |<br> eMail = amahaja7@depaul.edu</br>
+           </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>
