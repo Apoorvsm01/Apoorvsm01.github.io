@@ -1,1 +1,209 @@
 
+.col-lg-5,offset-lg-1,specs {
+    align-content: center;
+}
+h1.page1{
+    font-family: "Libre Bodoni", serif;
+    font-size: 2.986rem;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    
+    
+  }
+
+h2.page1 {
+    font-family: "Libre Bodoni", serif;
+    font-size: 2.488rem;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+h3.page1 {
+    font-family: "Libre Bodoni", serif;
+    font-size: 2.074rem;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h4.page1 {
+    font-family: "Libre Bodoni", serif;
+    font-size: 1.728rem;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+p.page1 {
+    font-family: "Libre Bodoni", serif;
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+em.page1 {
+    font-family: "Libre Bodoni", serif;
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+}
+
+a.text.page1 {
+    font-family: "Libre Bodoni", serif;
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    color: #2C8FA8;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+    
+}
+
+a.page1:hover, span.page1 {
+    color: #3b7c4e;
+    text-decoration: none;
+    cursor: progress;
+    
+}
+
+
+h1.page2{
+    font-family: "Cinzel", serif;
+    font-size: 5.61rem;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    
+    
+  }
+
+h2.page2 {
+    font-family: "Cinzel", serif;
+    font-size: 4.209rem;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+h3.page2 {
+    font-family: "Cinzel", serif;
+    font-size: 3.157rem;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h4.page2 {
+    font-family: "Cinzel", serif;
+    font-size: 2.369rem;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+p.page2 {
+    font-family: "Fauna One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+em.page2 {
+    font-family: "Fauna One", serif;
+    font-size: 1rem;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+  
+}
+
+a.page2 {
+    font-family: "Fauna One", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #0d7100;
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+    
+}
+
+a.page2:hover, span.page2 {
+    color: #9d00c4;
+    text-decoration: none;
+    cursor: progress;
+}
+/* Page 3 */
+/* Augmented Fourth */
+h1.page3{
+    font-family: "Oswald", sans-serif;
+    font-size: 7.993rem;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    
+    
+  }
+
+h2.page3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 5.653rem;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+h3.page3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3.998rem;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h4.page3 {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.827rem;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+p.page3 {
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+em.page3 {
+    font-family: "Quattrocento", serif;
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+a.page3 {
+    font-family: "Quattrocento", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #c11300;
+    text-decoration: none;
+    text-decoration-thickness: 0.1rem;
+    
+}
+
+a.page3:hover, span.page3 {
+    color: #8c00ff;
+    text-decoration: underline;
+    cursor: pointer;
+}
