@@ -1,0 +1,73 @@
+
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2f3542;
+    color: white;
+    padding: 1rem;
+}
+
+.main-title {
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2.5rem;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-card {
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 300px;
+}
+
+.logo-image {
+    width: 100%;
+    height: auto;
+    background-color: #f5f6fa;
+    margin-bottom: 1rem;
+}
+
+.logo-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.logo-description {
+    color: #57606f;
+    line-height: 1.5;
+}
+
+.favicon-section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.favicon-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.favicon-image {
+    width: 160px;
+    height: 160px;
+}
