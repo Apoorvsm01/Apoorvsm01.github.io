@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apoorv | UI/UX Designer: Mini-Design System: Typography</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+
+
+  <!-- Custom styles for this template -->
+  <link href="../css/sidebars.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="Favicon.png" type="image/x-icon" />
+
+</head>
+
+<body>
+  <header class="sticky-top d-md-none">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white bg-opacity-75 backdrop-blur rounded-pill mx-3 mt-3 shadow">
+      <div class="container-fluid px-4 justify-content-between align-items-center">
+
+        <!-- Left: Logo -->
+        <a class="navbar-brand d-flex align-items-center gap-2" href="../index.html">
+          <img src="../assets/Colored.png" alt="Apoorv Mahajan Logo" width="80" height="auto">
+        </a>
+
+        <!-- Right: Hamburger triggers existing sidebar -->
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar"
+          aria-controls="sidebar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- This topbar toggle to the off canvas -->
+  <div class="offcanvas offcanvas-start bg-success" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
+    <div class="offcanvas-header">
+      <a href="../index.html">
+        <img src="../assets/Colored.png" alt="Logo" class="img-fluid mb-3" style="max-width: 100px" />
+      </a>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+      </button>
+    </div>
+    <div class="offcanvas-body ">
+      <ul class="nav flex-column">
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#foundations-collapse" aria-expanded="false">
+            Foundations
+          </button>
+          <div class="collapse show" id="foundations-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="../foundation/type.html" class="link-dark d-inline-flex text-decoration-none rounded"><span
+                    class="activeLink rounded">Typography</span></a></li>
+              <li><a href="../foundation/color.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded">Color</a>
+              </li>
+              <li><a href="../foundation/logo.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded">Logo</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#components-collapse" aria-expanded="false">
+            Components
+          </button>
+          <div class="collapse" id="components-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="../components/component1.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded">Navbar</a></li>
+              <li><a href="../components/component2.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded">Footer</a></li>
+              <li><a href="../components/component3.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded">Card</a></li>
+
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#patterns-collapse" aria-expanded="false">
+            Page Patterns
+          </button>
+          <div class="collapse" id="patterns-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="../patterns/page1.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded">Homepage</a></li>
+              <li><a href="../patterns/page2.html"
+                  class="link-dark d-inline-flex text-decoration-none rounded">About</a></li>
+            </ul>
+      </ul>
+    </div>
+  </div>
+  <!-- This is the sidebar menu -->
+  <div class="container-fluid ">
+    <div class="row">
+      <nav id="sidebarMenu" class="d-none d-md-block bg-success sidebar shadow" style="width: 210px;">
+
+        <div class="pt-3">
+          <a href="../index.html" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none">
+            <img src="../assets/Colored.png" alt="Logo" class="img-fluid mb-3 mx-auto" style="max-width: 100px" />
+          </a>
+          <ul class="nav flex-column">
+            <ul class="list-unstyled ps-0">
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                  data-bs-toggle="collapse" data-bs-target="#foundations-collapse" aria-expanded="false">
+                  Foundations
+                </button>
+                <div class="collapse show" id="foundations-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="../foundation/type.html"
+                        class="link-dark d-inline-flex text-decoration-none rounded"><span
+                          class="activeLink rounded">Typography</span></a></li>
+                    <li><a href="../foundation/color.html"
+                        class="link-dark d-inline-flex text-decoration-none rounded">Color</a></li>
+                    <li><a href="../foundation/logo.html"
+                        class="link-dark d-inline-flex text-decoration-none rounded">Logo</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                  data-bs-toggle="collapse" data-bs-target="#components-collapse" aria-expanded="false">
+                  Components
+                </button>
+                <div class="collapse" id="components-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="../components/component1.html"
+                        class="link-dark d-inline-flex text-decoration-none rounded">Navbar</a></li>
+                    <li><a href="../components/component2.html"
+                        class="link-dark d-inline-flex text-decoration-none rounded">Footer</a></li>
+                    <li><a href="../components/component3.html"
+                        class="link-dark d-inline-flex text-decoration-none rounded">Card</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                  data-bs-toggle="collapse" data-bs-target="#patterns-collapse" aria-expanded="false">
+                  Page Patterns
+                </button>
+                <div class="collapse" id="patterns-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li><a href="../patterns/page1.html"
+                        class="link-dark d-inline-flex text-decoration-none rounded">Homepage</a></li>
+                    <li><a href="../patterns/page2.html"
+                        class="link-dark d-inline-flex text-decoration-none rounded">About</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 ">
+        <!-- Page Content  -->
+        <div class="container">
+          <div class="row hier-intro">
+            <div class="col text-center pt-3 pb-3">
+              <h1>
+                <span style="font-family: 'Urbanist', serif;">Urbanist</span> &amp;
+                <span style="font-family: 'Instrument Sans', sans-serif;">Instument Sans</span>
+              </h1>
+              <p>
+                <b>Scale:</b> 1.250 – Major Third<br>
+                <b>Base Size:</b> 17px (100% = 1em)<br>
+                <span style="font-size: 0.8rem;">Generated with <a href="https://type-scale.com/"
+                    target="_blank">type-scale.com</a>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Urbanist/Instrument Sans Hierarchy-->
+        <div class="container hier-container newsreader">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <h1 class="urbanist-heading1">Heading 1</h1>
+              <p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam blanditiis
+                cupiditate alias eveniet porro sed laborum pariatur quisquam, sunt sit deleniti dolore sequi. Expedita
+                illo cupiditate rem pariatur architecto.</p>
+            </div>
+            <div class="col-lg-5 offset-lg-1 specs">
+              <code>
+                    font-family: "Urbanist", sans-serif;
+                    <br>font-size: 65px/3.81rem;
+                    <br>font-optical-sizing: auto;
+                    <br>font-style: normal;
+                    <br>font-weight: 300;
+                </code>
+            </div>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <h2 class="urbanist-heading2">Heading 2</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam blanditiis
+                cupiditate alias eveniet porro sed laborum pariatur quisquam, sunt sit deleniti dolore sequi. Expedita
+                illo cupiditate rem pariatur architecto.</p>
+            </div>
+            <div class="col-lg-5 offset-lg-1 specs">
+              <code>
+                    font-family: "Urbanist", sans-serif;
+                    <br>font-size: 52px/3rem;
+                    <br>font-optical-sizing: auto;
+                    <br>font-style: normal;
+                    <br>font-weight: 300;
+                </code>
+            </div>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <h3 class="urbanist-heading3">Heading 3</h3>
+              <p class="page2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam blanditiis
+                cupiditate alias eveniet porro sed laborum pariatur quisquam, sunt sit deleniti dolore sequi. Expedita
+                illo cupiditate rem pariatur architecto.</p>
+            </div>
+            <div class="col-lg-5 offset-lg-1 specs">
+              <code>
+                    font-family: "Urbanist", sans-serif;
+                    <br>font-size: 42px/2.44rem;
+                    <br>font-optical-sizing: auto;
+                    <br>font-style: normal;
+                    <br>font-weight: 300;
+                </code>
+            </div>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <h4 class="urbanist-heading4">Heading 4</h4>
+              <p class="page2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam blanditiis
+                cupiditate alias eveniet porro sed laborum pariatur quisquam, sunt sit deleniti dolore sequi. Expedita
+                illo cupiditate rem pariatur architecto.</p>
+            </div>
+            <div class="col-lg-5 offset-lg-1 specs">
+              <code>
+                    font-family: "Urbanist", sans-serif;
+                    <br>font-size: 33px/1.95rem;
+                    <br>font-optical-sizing: auto;
+                    <br>font-style: normal;
+                    <br>font-weight: 300;
+                </code>
+            </div>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <p class="page2">Body Text</p>
+              <p class="page2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam blanditiis
+                cupiditate alias eveniet porro sed laborum pariatur quisquam, sunt sit deleniti dolore sequi. Expedita
+                illo cupiditate rem pariatur architecto.</p>
+            </div>
+            <div class="col-lg-5 offset-lg-1 specs">
+              <code>
+                    font-family: "Instrument-Sans", sans-serif;
+                    <br>font-size: 17px/1rem;
+                    <br>font-optical-sizing: auto;
+                    <br>font-style: normal;
+                    <br>font-weight: 400;
+                </code>
+            </div>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <p class="page2"><em class="page2">Emphasized Text</em></p>
+              <p class="page2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam blanditiis
+                cupiditate <em class="page2">alias eveniet porro sed laborum</em> pariatur quisquam, sunt sit deleniti
+                dolore sequi. Expedita illo cupiditate rem pariatur architecto.</p>
+            </div>
+            <div class="col-lg-5 offset-lg-1 specs">
+              <code>
+                    font-family: "Instrument-Sans", sans-serif;
+                    <br>font-size: 17px/1rem;
+                    <br>font-optical-sizing: auto;
+                    <br>font-style: normal;
+                    <br>font-weight: 600;
+                </code>
+            </div>
+            <hr>
+          </div>
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <p class="page2"><a class="page2" href="#">Inline Link</a></p>
+              <p class="page2"><span class="page2" class="hover">Inline Link: Hover</span> <i
+                  class="bi bi-hand-index-thumb"></i></p>
+              <p class="page2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam blanditiis
+                cupiditate alias eveniet porro sed laborum pariatur quisquam, <a class="page2" href="#">sunt sit
+                  deleniti dolore</a> sequi. Expedita illo cupiditate rem pariatur architecto.</p>
+            </div>
+            <div class="col-lg-5 offset-lg-1 specs">
+              <code style="padding-right: 15px">
+                    <div>
+                        font-family: "Instrument-Sans", sans-serif;
+                    <br>font-size: 17px/1rem;
+                    <br>font-optical-sizing: auto;
+                    <br>font-style: normal;
+                    <br>font-weight: 400;
+                        <br>color: #2A6569;<br>
+                        text-decoration: underline;<br>
+                        text-decoration-thickness: 0.2rem;<br>
+                    </div>
+                    <di>
+                        <b>Hover</b><br>
+                        color: #F19B1A;<br>
+                        text-decoration: none;<br>
+                        
+                    </di>
+                </code>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  </script>
+</body>
+
+</html>
